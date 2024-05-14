@@ -169,50 +169,42 @@ font-size: 24px;
 color:var(--black-500);
 }
 @media only screen and (max-width: 600px){
-    .popular-foods__title{
-        font-size: 28px;
-        line-height: 34px;
-    }
-    .popular-foods{
-        overflow: hidden;
-    }
+    
     .popular-foods__title{
         font-size: 26px;
         text-align: center;
-        margin-left: -4.8em;
     }
     .popular-foods-filters{
         display: flex;
         flex-wrap: wrap;
-        gap:10px;
-        margin-left:-6.5em;
-        margin-top: 24px;
-        overflow-x:hidden;
+        gap:20px;
+        margin-top: 10px;
     }
     .popular-foods__filter-btn img{
-        width: 24px;
-    height:24px;
+        width: 34px;
+    height:34px;
     object-fit: contain;
     }
     .popular-foods__filter-btn{
-        font-size: 12px;
+        font-size: 14px;
         line-height: 10px;
         font-weight: 300;
         gap:5px;
         padding:5px 10px;
     }
     .popular-foods__catalogue{
-        margin-top:35px;
+        margin-top:45px;
         gap:28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .exp-food{
         margin:40px auto 0;
         padding:10px 15px;
-        margin-left: 0em;
     }
     .card1{
         width: 100px;
-        margin-left:-7.7em
     }
     .popular-foods__card{
         padding:18px;

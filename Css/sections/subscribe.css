@@ -60,9 +60,9 @@
 
 @media only screen and (max-width: 600px){
     .offer-section{
-        min-height: 55vh;
+        min-height: 40vh;
         padding:44px;
-        max-width:64%;
+        margin: 0px 0;
     }
     .offer-section h2{
         font-size: 36px;
@@ -74,17 +74,17 @@
         
     }
     .offer-section  p{
-        font-size: 10px;
+        font-size: 15px;
         text-align: center;
     }
     .offer-section input{
-        min-width: 20px;
-    min-height: 10px;
+        min-width: 90px;
+        min-height: 30px;
     }
     .get-btn{
-        width:120px;
+        width:80px;
     height:33px;
-    margin-top:90%;
+    margin-top:62.5%;
     margin-left:0%;
     }
 }

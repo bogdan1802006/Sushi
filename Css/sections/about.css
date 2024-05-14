@@ -128,17 +128,20 @@
 @media only screen and (max-width: 600px){
     .about-us{
         width:100%;
-        min-height:70vh;
+        min-height:75vh;
+        margin-top:50px;
     }
     .left-content{
-        gap:10px;
+        gap:25px;
+        display: flex;
+    flex-direction: row;
     }
     .top-cont{
-        width:138%;
+        width:100%;
        
     }
     .top-cont img{
-        width:164px;
+        width:184px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -152,10 +155,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width:138%;
+        width:100%;
     }
     .bot-cont img{
-    width:273px;
+    width:293px;
     height:auto;
     }
 .bot-cont img{
@@ -167,26 +170,33 @@
    display: none;
 }
 .right-content{
-    margin-left:0px;
     gap:10px;
     padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:0px;
 }
 .first-div{
     gap:10px;
     padding:15px;
     width:100%;
+    width:100%;
 }
 .first-div p{
-    font-size: 14px;
+    font-size: 18px;
+    text-align: center;
 }
 .first-div h2{
-    font-size:35px;
+    font-size:36px;
+    text-align: center;
 }
 .second-div{
-    padding:20px;
+    padding:15px;
     width:100%;
 }
 .second-div p{
-    font-size:14px;
+    font-size:15px;
+    text-align: center;
 }
 }

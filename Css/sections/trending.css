@@ -111,33 +111,38 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         flex-direction: column;
         flex-wrap: wrap;
         min-height:80vh;
-        max-width: 50%;
-        margin-left: 3em;
         min-height:70vh;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
     }
     .first{
         width:100%;
+        
     }
     .inner-div2{
         margin-left:0px;
+        margin:20px;
+        
     }
     .img-sec{
-        width: 138%; 
-        margin-left:-3em;
+        width: 90%; 
         display: flex;
         justify-content: center;
         align-items: center;
+        align-items: center;
     }
     .image img{
-        width: 164x;
+    width: 164x;
     height:164px;
     object-fit: contain;
     }
     .first p{
-        font-size: 15px;
+        font-size: 20px;
+        text-align: center;
     }
     .first h2{
-        font-size: 36px;
+        font-size: 42px;
     }
     .list{
         gap:30px;
