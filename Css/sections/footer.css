@@ -21,6 +21,13 @@
 .socials{
     margin-left:10%;
 }
+.footer__menu{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:40px;
+    list-style: none;
+}
 .first-img, .second-img, .third-img{
    background-color: black;
    padding: 10px;
@@ -38,10 +45,10 @@
    justify-content: center;
    display: flex;
 }
-.header__menu li a{
+.footer__menu li a{
     transition: .2s ease-in-out;
 }
-.header__menu li a:hover{
+.footer__menu li a:hover{
     color: var(--primary-color);
 }
 @media only screen and (max-width: 600px){
