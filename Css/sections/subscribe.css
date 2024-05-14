@@ -1,0 +1,92 @@
+.offer-section{
+    min-height: 73vh;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding:54px;
+    align-items: center;
+}
+.offer-section h2{
+    font-size: 64px;
+    font-family: var(--playfair-display);
+    color:#fff;
+    font-weight: 600;
+}
+.offer-section h3{
+    font-size: 64px;
+    font-family: var(--playfair-display);
+    color:#fff;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.offer-section  p{
+    font-size: 15px;
+    color:#fff;
+    padding: 30px;
+    opacity: 0.8;
+    font-family: var(--playfair-display);
+}
+.offer-section input{
+    min-width: 360px;
+    min-height: 45px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 60px;
+    padding:20px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    font-size: 14px;
+    color:#fff;
+    font-family: var(--playfair-display);
+}
+.offer-section input::placeholder{
+    color:#fff;
+    opacity: 0.5;
+    font-size: 12px;
+}
+.get-btn{
+    position:absolute;
+    margin-top:19.5%;
+    margin-left:15%;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    width:140px;
+    height:43px;
+    color:#fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .offer-section{
+        min-height: 55vh;
+        padding:44px;
+        max-width:64%;
+    }
+    .offer-section h2{
+        font-size: 36px;
+        text-align: center;
+    }
+    .offer-section h3{
+        font-size: 36px;
+        text-align: center;
+        
+    }
+    .offer-section  p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .offer-section input{
+        min-width: 20px;
+    min-height: 10px;
+    }
+    .get-btn{
+        width:120px;
+    height:33px;
+    margin-top:90%;
+    margin-left:0%;
+    }
+}
+
+
