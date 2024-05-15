@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="icon" href="/assets/sushi-2.png">
   <link rel="stylesheet" href="Css/style.css">
   <title>Sushiman</title>
@@ -354,6 +355,16 @@
     </ul>
     </div>
   </section>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+     // Initialize AOS
+     document.addEventListener("DOMContentLoaded", function() {
+            AOS.init({
+                duration: 1000,
+                offset: 100,
+            });
+        });
+   </script>
   <script src="Js/script.js" type="module"></script>
 </body>
 </html>
