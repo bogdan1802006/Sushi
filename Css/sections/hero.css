@@ -159,6 +159,9 @@
         width: 100%;
         text-align: center;
     }
+    .hero-content__play-button{
+        display: none;
+    }
     .hero-content-info p{
         font-size: 14px;
         text-align: center;
