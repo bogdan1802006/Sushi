@@ -60,7 +60,7 @@
 
 @media only screen and (max-width: 600px){
     .offer-section{
-        min-height: 40vh;
+        min-height: 42vh;
         padding:44px;
         margin: 0px 0;
     }
@@ -84,7 +84,7 @@
     .get-btn{
         width:80px;
     height:33px;
-    margin-top:62.5%;
+    margin-top:64%;
     margin-left:0%;
     }
 }
