@@ -144,7 +144,7 @@
 @media only screen and (max-width: 600px){
     .hero{
         display: flex;
-        margin-top:-50px;
+        margin-top:-110px;
     min-height: calc(100vh - 74px);
     overflow: hidden;
     }
