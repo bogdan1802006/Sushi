@@ -5,7 +5,14 @@ import sushi12 from '../assets/sushi-12.png'
 import sushi11 from '../assets/sushi-11.png'
 import sushi10 from '../assets/sushi-10.png'
 
- 
+document.addEventListener('DOMContentLoaded', function() {
+    const btn = document.querySelector('#btn');
+    const menu = document.querySelector('.header__menu');
+
+    btn.addEventListener('click', function() {
+        menu.classList.toggle('show-menu');
+    });
+});
 
 const trendingSushis = [
     'Make Sushi',

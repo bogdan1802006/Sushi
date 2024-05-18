@@ -144,9 +144,11 @@
 @media only screen and (max-width: 600px){
     .hero{
         display: flex;
-        margin-top:-110px;
-    min-height: calc(100vh - 74px);
+        margin-top:-210px;
+    min-height: calc(130vh - 74px);
     overflow: hidden;
+
+    
     }
     .hero__image{
         display: none;
@@ -168,11 +170,19 @@
         margin: 10px 0;
     }
     .hero-content__buttons{
-        margin: 28px 0;
+        margin: 14px 0;
         gap:24px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .hero-content__order-button{
+        min-width: 154px;
+        padding:17px;
+        
+    }
+    .hero-content__play-button{
+        display: none;
     }
     .hero-content__testimonial{
         padding:16px 32px;

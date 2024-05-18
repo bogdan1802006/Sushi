@@ -129,19 +129,19 @@
     .about-us{
         width:100%;
         min-height:75vh;
-        margin-top:50px;
+        margin-top:25px;
     }
     .left-content{
         gap:25px;
         display: flex;
     flex-direction: row;
+    margin-left:22.5px;
     }
     .top-cont{
         width:100%;
-       
     }
     .top-cont img{
-        width:184px;
+        width:140px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -157,14 +157,12 @@
         align-items: center;
         width:100%;
     }
-    .bot-cont img{
-    width:293px;
-    height:auto;
-    }
 .bot-cont img{
-    width:180px;
+    width:140px;
     height:auto;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bot-cont h2{
    display: none;

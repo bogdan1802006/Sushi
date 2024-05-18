@@ -111,7 +111,6 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         flex-direction: column;
         flex-wrap: wrap;
         min-height:80vh;
-        min-height:70vh;
         justify-content: center;
         align-items: center;
         align-items: center;
@@ -130,8 +129,10 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 20px 0;
         align-items: center;
     }
+    
     .image img{
     width: 164x;
     height:164px;
