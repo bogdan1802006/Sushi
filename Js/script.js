@@ -9,6 +9,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+const btnMoon = document.querySelector('#btn-moon');
+const body = document.body
+
+btnMoon.addEventListener('click', function(){
+    body.classList.toggle('dark-theme')
+})
+
 const trendingSushis = [
     'Make Sushi',
     'Nigiri Sushi',

@@ -40,7 +40,17 @@ padding:20px;
 @media only screen and (max-width: 600px){
     .header__nav{
         display: flex;
-        
+    }
+
+    #btn-moon{
+        display: block;
+        position: absolute;
+        right:80px;
+        top:5px;
+       font-size: 30px;
+        color:#333;
+        cursor: pointer;
+        z-index: 1000;
     }
     .header__menu{
         display: none;
@@ -84,6 +94,138 @@ padding:20px;
     .header__logo h4{
         font-size: 20px;
     }
-    
-    
+    /* DARK THEME!!!!!!!!!!!!!!!!!!!! */
+    /* HEADER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+    .dark-theme{
+        background-color: #1F1B24;
+        color:#fff;
+        .header__logo h4{
+            color:#fff;
+        }
+
+        .header__logo-overlay{
+            background-color:#1F1B24;
+        }
+        .show-menu  li:hover{
+            background-color: #BB86Fc;
+            color:#fff
+        }
+        #btn-moon{
+            color:#BB86Fc;
+        }
+        #btn{
+            color:#BB86Fc;
+        }
+        .header__nav{
+            border-bottom: 1px solid #383030;
+        }
+        /* HERO SECTION */
+        .hero-content-info p{
+            color:#fff !important
+        }
+        .hero-content-info h1{
+            color:#fff !important
+        }
+        .hero-content__order-button{
+            background-color: #BB86Fc;
+        }
+        .hero-content__order-button:hover{
+            color:#fff;
+        }
+        .hero-content__testimonial{
+            background-color: #BB86Fc;
+        }
+        .hero-content__review p{
+            color:#fff;
+        }
+        .hero-content__review{
+            border-left:1px solid #fff;
+        }
+        /* ABOUT US !!!!!!!!!!!! */
+        .top-cont{
+            background-color: #BB86Fc;
+        }
+        .bot-cont{
+            background-color: #BB86Fc;
+        }
+        .first-div p{
+            color:#fff
+        }
+        .second-div p{
+            opacity:1;
+            color:#fff;
+        }
+        .popular-foods{
+            background-color: #1F1B24;
+            border-top: 1px solid #bd9f9f;
+        }
+        .card1{
+            background-color: #BB86Fc;
+        }
+        .popular-foods__card.active-card{
+            background-color: transparent;
+        }
+        .popular-foods__card.active-card .popular-foods__card-title{
+            color:#fff;
+        }
+        .popular-foods__card.active-card .popular-foods__card-price{
+            color:#fff;
+        }
+        .popular-foods__card.active-card .popular-foods__card-rating p{
+            color:#fff;
+        }
+        .popular-foods__filter-btn{
+            background-color: #BB86Fc ;
+        }
+        .exp-food{
+            background-color: #BB86Fc ;
+            transition: .2s ease-in-out;
+        }
+        .exp-food:hover{
+            background-color: transparent;
+            color:#fff;
+        }
+        .first-content{
+            border-top: 1px solid #a79494;
+            border-radius: 10px;
+        }
+        .img-sec{
+            background-color: #BB86Fc ;
+        }
+        .inner-div1 ul li img, .inner-div2 ul li img{
+            background-color: #BB86Fc;
+        }
+        .offer-section{
+            background-color: #1F1B24;
+            border-top: 1px solid #887676;
+        }
+        .offer-section input{
+            border: 1px solid #BB86Fc;
+        }
+        .get-btn{
+            background-color: #BB86Fc;
+            color:#fff;
+            transition: .2s ease-in-out;
+        }
+        .get-btn:hover{
+            background-color: transparent;
+        }
+        .footer{
+            background-color: #1F1B24;
+            border-top: 1px solid #887676;
+        }
+        .footer h3, .footer span{
+            color:#fff;
+        }
+        .first-img, .second-img, .third-img{
+            background-color: #BB86Fc;
+        }
+        .about-us{
+            border-top: 1px solid #928282;
+            border-radius: 10px;
+        }
+        .hero-content{
+            gap:20px;
+        }
+    }
 }

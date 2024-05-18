@@ -1,6 +1,7 @@
 .about-us{
     display: flex;
     overflow: hidden;
+    padding:20px 0;
     flex-wrap: wrap;
     min-height:100vh;
 }
