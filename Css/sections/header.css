@@ -160,10 +160,10 @@ padding:20px;
             border-top: 1px solid #bd9f9f;
         }
         .card1{
-            background-color: #BB86Fc;
+            background-color: transparent;
         }
         .popular-foods__card.active-card{
-            background-color: transparent;
+            background-color: #BB86Fc;
         }
         .popular-foods__card.active-card .popular-foods__card-title{
             color:#fff;

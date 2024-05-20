@@ -143,7 +143,7 @@ object-fit: contain;
     font-weight: 500;
     color:#fff;
 }
-.popular-foods__card.active-card{
+.active-card{
     background-color: #fff;
     min-width: 340px;
 }
