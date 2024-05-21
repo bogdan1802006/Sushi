@@ -9,6 +9,7 @@
 @import url("sections/trending.css");
 @import url("sections/subscribe.css");
 @import url("sections/footer.css");
+@import url("sections/askedquestions.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
